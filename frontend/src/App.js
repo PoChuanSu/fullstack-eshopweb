@@ -1,14 +1,15 @@
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import { Container } from "react-bootstrap";
+import { Outlet } from "react-router-dom";
 
 function App() {
     return (
         <>
             <Header />
-            <main>
-                <Container className="py-3">
-                    <h1>Welcome to PassShop</h1>
+            <main className="py-3">
+                <Container>
+                    <Outlet />
                 </Container>
             </main>
             <Footer />
