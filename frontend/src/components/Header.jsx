@@ -9,7 +9,7 @@ const Header = () => {
             <Navbar bg="dark" variant="dark" expand="md" collapseOnSelect>
                 <Container>
                     <LinkContainer to="/">
-                        <Navbar.Brand href="/">
+                        <Navbar.Brand>
                             <img src={logo} alt="pass-shop-log" />
                             PassShop
                         </Navbar.Brand>
