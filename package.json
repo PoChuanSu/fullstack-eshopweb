@@ -1,0 +1,29 @@
+{
+    "name": "ecommerce",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "server": "nodemon backend/server.js",
+        "client": "npm start --prefix frontend",
+        "dev": "concurrently \"npm run server\" \"npm run client\""
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/PoChuanSu/fullstack-eshopweb.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "module",
+    "bugs": {
+        "url": "https://github.com/PoChuanSu/fullstack-eshopweb/issues"
+    },
+    "homepage": "https://github.com/PoChuanSu/fullstack-eshopweb#readme",
+    "description": "",
+    "dependencies": {
+        "concurrently": "^9.2.0",
+        "dotenv": "^17.0.0",
+        "express": "^5.1.0",
+        "mongoose": "^8.16.1"
+    }
+}
